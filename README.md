@@ -1,15 +1,1 @@
-# Python
-#Simple calculator 
-def calculate(operator, x, y):
-  if operator == "+":
-    print(x + y)
-  elif operator == "-":
-    print(x - y)
-  elif operator == "*" :
-    print(x * y)
-  elif operator == "÷":
-    print(x/y)
-  else:
-    print(f"unknown: {operator}")
-calculate(str(input("What arithmetic operation you want to do: For + , - , * , ÷:    ")), int(input("Enter value: ")), int(input("Enter second value:  ")))
 
